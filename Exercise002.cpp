@@ -10,7 +10,7 @@ class Ejercicio
         string texto;
         int havea=1;
 
-        Console.Write("Introduzca un tecto: ");
+        Console.Write("Enter a text: ");
         texto = Console.ReadLine();
 
         while(havea!=0)
@@ -22,7 +22,7 @@ class Ejercicio
             }
             if (havea != 0)
             {
-                Console.Write("Introduzca un tecto: ");
+                Console.Write("Enter a text: ");
                 texto = Console.ReadLine();
             }
         }
