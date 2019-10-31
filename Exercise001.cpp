@@ -28,6 +28,5 @@ int main()
         else
             equal++;
     }
-    cout<<
-    "Increment: "<<increments<<" Decrement: "<<decrements<<" Equal: "<<equal;
+    cout<<"Increment: "<<increments<<" Decrement: "<<decrements<<" Equal: "<<equal;
 }
