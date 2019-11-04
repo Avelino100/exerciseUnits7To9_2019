@@ -12,7 +12,7 @@ class Ejercicio
         int havea=1;
 
         Console.Write("Enter a text: ");
-        texto = Console.ReadLine();
+        text = Console.ReadLine();
 
         while(havea!=0)
         {
@@ -24,7 +24,7 @@ class Ejercicio
             if (havea != 0)
             {
                 Console.Write("Enter a text: ");
-                texto = Console.ReadLine();
+                text = Console.ReadLine();
             }
         }
        
