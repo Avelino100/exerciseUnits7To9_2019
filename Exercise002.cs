@@ -7,7 +7,8 @@ class Ejercicio
 {
     static void Main()
     {
-        string texto;
+        string text;
+        //to know if the text have and a
         int havea=1;
 
         Console.Write("Enter a text: ");
@@ -15,7 +16,7 @@ class Ejercicio
 
         while(havea!=0)
         {
-            foreach (char letra in texto)
+            foreach (char letra in text)
             {
                 if (letra == 'a' || letra == 'A')
                     havea = 0;
